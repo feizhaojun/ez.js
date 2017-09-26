@@ -17,7 +17,7 @@ A JavaScript library.
 
 http://www.domain.com/?name=ez&id=1
 
-\_.queryString('name') == 'ez'
+\_.queryString('name') // 'ez'
 
-\_.queryString() == {'name':'ez','id':'1'}
+\_.queryString() // {'name':'ez','id':'1'}
 
