@@ -24,6 +24,7 @@
                 }
             });
             if(!e){
+                // 这里是否需要整合 # 后面的参数 ？
                 return s[0];
             }else if(e.length){
                 return [search.split(e[0]),hash.split(e[0])];
